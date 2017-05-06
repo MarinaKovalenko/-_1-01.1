@@ -1,0 +1,23 @@
+# -_1-01.1
+# Модуль_1 ДЗ 01.1
+
+package com.company;
+
+import java.util.Scanner;
+
+public class HelloName {
+    public static void main(String [] args){
+        Scanner a= new Scanner(System.in);
+        System.out.println( "Ввести имя");
+        String y=a.nextLine();
+        System.out.println("Hello " +y );
+    }
+}
+
+# Console:
+
+Ввести имя
+Marina
+Hello Marina
+
+Process finished with exit code 0
